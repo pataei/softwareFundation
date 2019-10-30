@@ -1,0 +1,1042 @@
+DIGEST 7a726fffa803b55feced1af9a939a083
+FQC
+R45:49 Coq.Arith.Arith <> <> lib
+R51:54 Coq.Bool.Bool <> <> lib
+R56:59 Coq.Lists.List <> <> lib
+R61:66 Coq.ZArith.ZArith <> <> lib
+R122:131 QuickChick.QuickChick <> <> lib
+R265:288 ExtLib.Structures.Monads <> <> lib
+R353:358 Coq.Strings.String <> <> lib
+R1149:1157 QuickChick.GenLow GenLow returnGen defax
+R1236:1244 QuickChick.GenLow GenLow returnGen defax
+R1856:1862 QuickChick.GenLow GenLow bindGen defax
+sec 2201:2209 <> GMonadDef
+inst 2223:2228 <> GMonad
+R2234:2238 ExtLib.Structures.Monad <> Monad class
+R2240:2240 QuickChick.GenLow GenLow G defax
+R2281:2284 ExtLib.Structures.Monad <> bind meth
+R2258:2260 ExtLib.Structures.Monad <> ret meth
+R2266:2274 QuickChick.GenLow GenLow returnGen defax
+R2290:2296 QuickChick.GenLow GenLow bindGen defax
+R2308:2316 QC GMonadDef <> sec
+R2551:2556 QuickChick.GenLow GenLow choose defax
+R2867:2887 QuickChick.RandomQC <> ChoosableFromInterval class
+R4325:4330 QuickChick.GenHigh GenHigh listOf defax
+R5163:5170 QuickChick.GenHigh GenHigh vectorOf defax
+mod 6070:6076 <> DefineG
+ind 6090:6090 DefineG G
+constr 6113:6115 DefineG MkG
+R6119:6119 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6142:6146 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6147:6147 QC <> G ind
+R6149:6149 QC <> A var
+R6123:6126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6137:6140 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6141:6141 QC <> A var
+R6127:6136 QuickChick.RandomQC <> RandomSeed prfax
+R6120:6122 Coq.Init.Datatypes <> nat ind
+R6157:6163 QC DefineG <> mod
+ind 6830:6834 <> color
+constr 6839:6841 <> Red
+constr 6845:6849 <> Green
+constr 6853:6856 <> Blue
+constr 6860:6865 <> Yellow
+R6842:6842 QC <> color ind
+R6850:6850 QC <> color ind
+R6857:6857 QC <> color ind
+R6866:6866 QC <> color ind
+R7011:7016 Coq.Strings.String <> <> lib
+inst 7047:7056 <> show_color
+R7060:7063 QuickChick.Show <> Show class
+R7065:7069 QC <> color ind
+R7079:7232 QuickChick.Show <> Build_Show constr
+R7102:7102 QC <> c var
+R7120:7122 QC <> Red constr
+R7147:7151 QC <> Green constr
+R7176:7179 QC <> Blue constr
+R7204:7209 QC <> Yellow constr
+R7402:7407 QuickChick.GenHigh GenHigh elems_ defax
+def 7495:7503 <> genColor'
+R7507:7507 QuickChick.GenLow GenLow G defax
+R7509:7513 QC <> color ind
+R7520:7525 QuickChick.GenHigh GenHigh elems_ defax
+R7531:7532 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7536:7538 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7544:7546 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7551:7553 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7560:7561 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7533:7535 QC <> Red constr
+R7539:7543 QC <> Green constr
+R7547:7550 QC <> Blue constr
+R7554:7559 QC <> Yellow constr
+R7527:7529 QC <> Red constr
+def 8613:8620 <> genColor
+R8624:8624 QuickChick.GenLow GenLow G defax
+R8626:8630 QC <> color ind
+R8637:8644 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R8648:8650 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R8656:8658 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R8663:8665 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R8672:8673 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R8645:8647 QC <> Red constr
+R8645:8647 QC <> Red constr
+R8651:8655 QC <> Green constr
+R8659:8662 QC <> Blue constr
+R8666:8671 QC <> Yellow constr
+ind 9076:9079 <> Tree
+constr 9088:9091 <> Leaf
+constr 9104:9107 <> Node
+R9095:9098 QC <> Tree ind
+R9100:9100 QC <> A var
+R9112:9115 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9122:9125 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9132:9135 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9136:9139 QC <> Tree ind
+R9141:9141 QC <> A var
+R9126:9129 QC <> Tree ind
+R9131:9131 QC <> A var
+R9116:9119 QC <> Tree ind
+R9121:9121 QC <> A var
+R9111:9111 QC <> A var
+R9155:9158 QC <> Leaf constr
+R9155:9158 QC <> Leaf constr
+R9175:9178 QC <> Node constr
+R9175:9178 QC <> Node constr
+inst 9535:9542 <> showTree
+R9554:9557 QuickChick.Show <> Show class
+R9559:9559 QC <> A var
+R9564:9567 QuickChick.Show <> Show class
+R9570:9573 QC <> Tree ind
+R9575:9575 QC <> A var
+R9586:9824 QuickChick.Show <> Build_Show constr
+R9624:9624 QC <> t var
+R9642:9645 QC <> Leaf constr
+R9668:9671 QC <> Node constr
+R9703:9706 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9713:9716 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9707:9710 QuickChick.Show <> show meth
+R9722:9748 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9754:9757 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9749:9751 QC <> aux var
+R9763:9789 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9795:9798 Coq.Strings.String <> :string_scope:x_'++'_x not
+R9790:9792 QC <> aux var
+R9822:9824 QC <> aux var
+R9916:9921 QuickChick.GenHigh GenHigh oneOf_ defax
+def 11805:11816 <> genTreeSized
+R11828:11830 Coq.Init.Datatypes <> nat ind
+R11838:11838 QuickChick.GenLow GenLow G defax
+R11840:11840 QC <> A var
+R11845:11845 QuickChick.GenLow GenLow G defax
+R11848:11851 QC <> Tree ind
+R11853:11853 QC <> A var
+R11867:11868 QC <> sz var
+R11881:11881 Coq.Init.Datatypes <> O constr
+R11886:11888 ExtLib.Structures.Monad <> ret meth
+R11890:11893 QC <> Leaf constr
+R11901:11901 Coq.Init.Datatypes <> S constr
+R11918:11936 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'oneOf'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R11945:11957 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'oneOf'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R12013:12022 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'oneOf'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R11937:11939 ExtLib.Structures.Monad <> ret meth
+R11941:11944 QC <> Leaf constr
+R11937:11939 ExtLib.Structures.Monad <> ret meth
+R11941:11944 QC <> Leaf constr
+R11958:11963 ExtLib.Structures.Monad <> liftM3 def
+R11994:12005 QC <> genTreeSized def
+R12011:12011 QC <> g var
+R11973:11984 QC <> genTreeSized def
+R11990:11990 QC <> g var
+R11970:11970 QC <> g var
+R11965:11968 QC <> Node constr
+R13155:13159 QuickChick.GenHigh GenHigh freq_ defax
+def 13621:13633 <> genTreeSized'
+R13645:13647 Coq.Init.Datatypes <> nat ind
+R13655:13655 QuickChick.GenLow GenLow G defax
+R13657:13657 QC <> A var
+R13662:13662 QuickChick.GenLow GenLow G defax
+R13665:13668 QC <> Tree ind
+R13670:13670 QC <> A var
+R13684:13685 QC <> sz var
+R13698:13698 Coq.Init.Datatypes <> O constr
+R13703:13705 ExtLib.Structures.Monad <> ret meth
+R13707:13710 QC <> Leaf constr
+R13719:13719 Coq.Init.Datatypes <> S constr
+R13736:13742 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R13757:13774 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R13872:13886 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R13743:13743 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13745:13747 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13756:13756 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13748:13750 ExtLib.Structures.Monad <> ret meth
+R13752:13755 QC <> Leaf constr
+R13743:13743 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13745:13747 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13756:13756 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13748:13750 ExtLib.Structures.Monad <> ret meth
+R13752:13755 QC <> Leaf constr
+R13775:13775 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13778:13779 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13871:13871 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13776:13777 QC <> sz var
+R13780:13785 ExtLib.Structures.Monad <> liftM3 def
+R13851:13863 QC <> genTreeSized' def
+R13869:13869 QC <> g var
+R13795:13807 QC <> genTreeSized' def
+R13813:13813 QC <> g var
+R13792:13792 QC <> g var
+R13787:13790 QC <> Node constr
+def 15794:15805 <> genListSized
+R15817:15819 Coq.Init.Datatypes <> nat ind
+R15827:15827 QuickChick.GenLow GenLow G defax
+R15829:15829 QC <> A var
+R15834:15834 QuickChick.GenLow GenLow G defax
+R15837:15840 Coq.Init.Datatypes <> list ind
+R15842:15842 QC <> A var
+R15856:15857 QC <> sz var
+R15870:15870 Coq.Init.Datatypes <> O constr
+R15875:15877 ExtLib.Structures.Monad <> ret meth
+R15879:15881 Coq.Init.Datatypes <> nil constr
+R15890:15890 Coq.Init.Datatypes <> S constr
+R15907:15913 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R15927:15944 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R15985:15999 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R15914:15914 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15916:15918 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15926:15926 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15919:15921 ExtLib.Structures.Monad <> ret meth
+R15923:15925 Coq.Init.Datatypes <> nil constr
+R15914:15914 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15916:15918 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15926:15926 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15919:15921 ExtLib.Structures.Monad <> ret meth
+R15923:15925 Coq.Init.Datatypes <> nil constr
+R15945:15945 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15948:15949 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15984:15984 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15946:15947 QC <> sz var
+R15950:15955 ExtLib.Structures.Monad <> liftM2 def
+R15965:15976 QC <> genListSized def
+R15982:15982 QC <> g var
+R15962:15962 QC <> g var
+R15957:15960 Coq.Init.Datatypes <> cons constr
+R16265:16270 Coq.Init.Datatypes <> option ind
+R16279:16282 Coq.Init.Datatypes <> list ind
+def 16297:16310 <> genColorOption
+R16318:16320 Coq.Init.Datatypes <> nat ind
+R16328:16328 QuickChick.GenLow GenLow G defax
+R16330:16334 QC <> color ind
+R16339:16339 QuickChick.GenLow GenLow G defax
+R16342:16347 Coq.Init.Datatypes <> option ind
+R16349:16353 QC <> color ind
+R16367:16368 QC <> sz var
+R16380:16380 Coq.Init.Datatypes <> O constr
+R16385:16387 ExtLib.Structures.Monad <> ret meth
+R16389:16392 Coq.Init.Datatypes <> None constr
+R16398:16398 Coq.Init.Datatypes <> S constr
+R16407:16412 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16426:16446 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16469:16489 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16512:16532 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16554:16574 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16598:16617 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R16413:16413 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16415:16416 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16425:16425 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16417:16419 ExtLib.Structures.Monad <> ret meth
+R16421:16424 Coq.Init.Datatypes <> None constr
+R16413:16413 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16415:16416 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16425:16425 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16417:16419 ExtLib.Structures.Monad <> ret meth
+R16421:16424 Coq.Init.Datatypes <> None constr
+R16447:16447 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16452:16453 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16468:16468 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16449:16449 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R16450:16451 QC <> sz var
+R16454:16456 ExtLib.Structures.Monad <> ret meth
+R16459:16462 Coq.Init.Datatypes <> Some constr
+R16464:16466 QC <> Red constr
+R16490:16490 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16493:16494 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16511:16511 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16491:16492 QC <> sz var
+R16495:16497 ExtLib.Structures.Monad <> ret meth
+R16500:16503 Coq.Init.Datatypes <> Some constr
+R16505:16509 QC <> Green constr
+R16533:16533 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16536:16537 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16553:16553 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16534:16535 QC <> sz var
+R16538:16540 ExtLib.Structures.Monad <> ret meth
+R16543:16546 Coq.Init.Datatypes <> Some constr
+R16548:16551 QC <> Blue constr
+R16575:16575 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16578:16579 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16597:16597 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16576:16577 QC <> sz var
+R16580:16582 ExtLib.Structures.Monad <> ret meth
+R16585:16588 Coq.Init.Datatypes <> Some constr
+R16590:16595 QC <> Yellow constr
+R16637:16650 QC <> genColorOption def
+R16654:16662 QC <> genColor' def
+def 16961:16966 <> mirror
+R16984:16987 QC <> Tree ind
+R16989:16989 QC <> A var
+R16994:16997 QC <> Tree ind
+R16999:16999 QC <> A var
+R17012:17012 QC <> t var
+R17025:17028 QC <> Leaf constr
+R17033:17036 QC <> Leaf constr
+R17044:17047 QC <> Node constr
+R17058:17061 QC <> Node constr
+R17077:17082 QC <> mirror def
+R17066:17071 QC <> mirror def
+inst 17296:17306 <> eq_dec_tree
+R17317:17320 QC <> Tree ind
+R17322:17324 Coq.Init.Datatypes <> nat ind
+R17329:17331 QuickChick.Decidability <> Dec class
+R17336:17338 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17334:17335 QC <> t1 var
+R17339:17340 QC <> t2 var
+R17381:17386 QuickChick.Decidability <> dec_eq meth
+R17667:17672 QuickChick.Decidability <> dec_eq meth
+def 17889:17895 <> mirrorP
+R17902:17905 QC <> Tree ind
+R17907:17909 Coq.Init.Datatypes <> nat ind
+R17938:17938 QuickChick.Decidability <> ::x_'?' not
+R17915:17915 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17933:17936 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17916:17921 QC <> mirror def
+R17924:17929 QC <> mirror def
+R17931:17931 QC <> t var
+R17937:17937 QC <> t var
+mod 18356:18373 <> CheckerPlayground1
+ind 18573:18578 CheckerPlayground1 Result
+constr 18583:18589 CheckerPlayground1 Success
+constr 18593:18599 CheckerPlayground1 Failure
+R18590:18590 QC <> Result ind
+R18600:18600 QC <> Result ind
+inst 18612:18621 CheckerPlayground1 showResult
+R18625:18628 QuickChick.Show <> Show class
+R18630:18635 QC CheckerPlayground1 Result ind
+R18648:18651 QuickChick.Show <> show meth
+R18664:18664 QC <> r var
+R18671:18677 QC CheckerPlayground1 Success constr
+R18694:18700 QC CheckerPlayground1 Failure constr
+def 18800:18806 CheckerPlayground1 Checker
+R18811:18811 QuickChick.GenLow GenLow G defax
+R18813:18818 QC CheckerPlayground1 Result ind
+rec 19623:19631 CheckerPlayground1 Checkable
+proj 19646:19652 CheckerPlayground1 checker
+R19657:19660 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19661:19667 QC CheckerPlayground1 Checker def
+R19656:19656 QC <> A var
+inst 19747:19759 CheckerPlayground1 checkableBool
+R19763:19771 QC CheckerPlayground1 Checkable class
+R19773:19776 Coq.Init.Datatypes <> bool ind
+R19789:19795 QC CheckerPlayground1 checker meth
+R19805:19805 QC <> b var
+R19829:19831 ExtLib.Structures.Monad <> ret meth
+R19833:19839 QC CheckerPlayground1 Failure constr
+R19812:19814 ExtLib.Structures.Monad <> ret meth
+R19816:19822 QC CheckerPlayground1 Success constr
+R20352:20369 QC CheckerPlayground1 <> mod
+mod 21110:21127 <> CheckerPlayground2
+inst 21167:21178 CheckerPlayground2 checkableDec
+R21194:21196 QuickChick.Decidability <> Dec class
+R21198:21198 QC <> P var
+R21203:21211 QC CheckerPlayground1 Checkable class
+R21213:21213 QC <> P var
+R21226:21232 QC CheckerPlayground1 checker meth
+R21243:21243 QuickChick.Decidability <> ::x_'?' not
+R21267:21269 ExtLib.Structures.Monad <> ret meth
+R21271:21277 QC CheckerPlayground1 Failure constr
+R21250:21252 ExtLib.Structures.Monad <> ret meth
+R21254:21260 QC CheckerPlayground1 Success constr
+ax 21530:21531 CheckerPlayground2 c1
+R21536:21538 Coq.Init.Logic <> :type_scope:x_'='_x not
+ax 21554:21555 CheckerPlayground2 c2
+R21565:21567 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21561:21563 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R21577:21594 QC CheckerPlayground2 <> mod
+mod 22700:22717 <> CheckerPlayground3
+def 23095:23100 CheckerPlayground3 forAll
+R23117:23125 QC CheckerPlayground1 Checkable class
+R23127:23127 QC <> B var
+R23148:23148 QuickChick.GenLow GenLow G defax
+R23150:23150 QC <> A var
+R23159:23162 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23163:23163 QC <> B var
+R23158:23158 QC <> A var
+R23179:23185 QC CheckerPlayground1 Checker def
+R23193:23196 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R23198:23203 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R23197:23197 QC <> g var
+R23204:23210 QC CheckerPlayground1 checker meth
+R23213:23213 QC <> f var
+R23215:23215 QC <> a var
+R23224:23241 QC CheckerPlayground3 <> mod
+def 23378:23382 <> isRed
+R23398:23398 QC <> c var
+R23409:23411 QC <> Red constr
+R23416:23419 Coq.Init.Datatypes <> true constr
+R23430:23434 Coq.Init.Datatypes <> false constr
+def 24370:24382 <> faultyMirrorP
+R24389:24392 QC <> Tree ind
+R24394:24396 Coq.Init.Datatypes <> nat ind
+R24416:24417 QuickChick.Decidability <> ::x_'?' not
+R24402:24402 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24411:24414 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24403:24408 QC <> mirror def
+R24410:24410 QC <> t var
+R24415:24415 QC <> t var
+mod 25074:25091 <> CheckerPlayground4
+ind 25105:25110 CheckerPlayground4 Result
+constr 25119:25125 CheckerPlayground4 Success
+constr 25140:25146 CheckerPlayground4 Failure
+R25129:25134 QC <> Result ind
+R25163:25166 QuickChick.Show <> Show class
+R25168:25168 QC <> A var
+R25173:25176 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25177:25182 QC <> Result ind
+R25172:25172 QC <> A var
+inst 25195:25204 CheckerPlayground4 showResult
+R25208:25211 QuickChick.Show <> Show class
+R25213:25218 QC CheckerPlayground4 Result ind
+R25231:25234 QuickChick.Show <> show meth
+R25247:25247 QC <> r var
+R25270:25276 QC CheckerPlayground4 Success constr
+R25307:25313 QC CheckerPlayground4 Failure constr
+R25339:25342 Coq.Strings.String <> :string_scope:x_'++'_x not
+R25343:25346 QuickChick.Show <> show meth
+def 25385:25391 CheckerPlayground4 Checker
+R25396:25396 QuickChick.GenLow GenLow G defax
+R25398:25403 QC CheckerPlayground4 Result ind
+rec 25413:25421 CheckerPlayground4 Checkable
+proj 25436:25442 CheckerPlayground4 checker
+R25447:25450 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25451:25457 QC CheckerPlayground4 Checker def
+R25446:25446 QC <> A var
+inst 25474:25481 CheckerPlayground4 showUnit
+R25485:25488 QuickChick.Show <> Show class
+R25490:25493 Coq.Init.Datatypes <> unit ind
+R25506:25509 QuickChick.Show <> show meth
+inst 25727:25739 CheckerPlayground4 checkableBool
+R25743:25751 QC CheckerPlayground4 Checkable class
+R25753:25756 Coq.Init.Datatypes <> bool ind
+R25769:25775 QC CheckerPlayground4 checker meth
+R25785:25785 QC <> b var
+R25809:25811 ExtLib.Structures.Monad <> ret meth
+R25814:25820 QC CheckerPlayground4 Failure constr
+R25822:25823 Coq.Init.Datatypes <> tt constr
+R25792:25794 ExtLib.Structures.Monad <> ret meth
+R25796:25802 QC CheckerPlayground4 Success constr
+inst 25841:25852 CheckerPlayground4 checkableDec
+R25868:25870 QuickChick.Decidability <> Dec class
+R25872:25872 QC <> P var
+R25877:25885 QC CheckerPlayground4 Checkable class
+R25887:25887 QC <> P var
+R25900:25906 QC CheckerPlayground4 checker meth
+R25917:25917 QuickChick.Decidability <> ::x_'?' not
+R25941:25943 ExtLib.Structures.Monad <> ret meth
+R25946:25952 QC CheckerPlayground4 Failure constr
+R25954:25955 Coq.Init.Datatypes <> tt constr
+R25924:25926 ExtLib.Structures.Monad <> ret meth
+R25928:25934 QC CheckerPlayground4 Success constr
+def 26163:26168 CheckerPlayground4 forAll
+R26185:26188 QuickChick.Show <> Show class
+R26190:26190 QC <> A var
+R26195:26203 QC CheckerPlayground4 Checkable class
+R26205:26205 QC <> B var
+R26231:26231 QuickChick.GenLow GenLow G defax
+R26233:26233 QC <> A var
+R26242:26245 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26246:26246 QC <> B var
+R26241:26241 QC <> A var
+R26267:26273 QC CheckerPlayground4 Checker def
+R26281:26284 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R26286:26291 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R26285:26285 QC <> g var
+R26293:26296 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R26310:26315 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R26297:26303 QC CheckerPlayground4 checker meth
+R26306:26306 QC <> f var
+R26308:26308 QC <> a var
+R26322:26322 QC <> r var
+R26333:26339 QC CheckerPlayground4 Success constr
+R26344:26346 ExtLib.Structures.Monad <> ret meth
+R26348:26354 QC CheckerPlayground4 Success constr
+R26360:26366 QC CheckerPlayground4 Failure constr
+R26381:26383 ExtLib.Structures.Monad <> ret meth
+R26386:26392 QC CheckerPlayground4 Failure constr
+R26394:26394 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26396:26396 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26398:26398 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26395:26395 QC <> a var
+R26680:26697 QC CheckerPlayground4 <> mod
+R27931:27936 QuickChick.Checker <> forAll def
+R27980:27992 QC <> faultyMirrorP def
+R27944:27956 QC <> genTreeSized' def
+R27961:27966 QuickChick.GenLow GenLow choose defax
+R27967:27967 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27969:27969 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27971:27971 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+inst 29772:29782 <> shrinkColor
+R29786:29791 QuickChick.Classes <> Shrink class
+R29793:29797 QC <> color ind
+R29810:29815 QuickChick.Classes <> shrink meth
+R29834:29834 QC <> c var
+R29849:29851 QC <> Red constr
+R29856:29858 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R29868:29872 QC <> Green constr
+R29877:29878 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R29882:29883 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R29879:29881 QC <> Red constr
+R29893:29896 QC <> Blue constr
+R29901:29902 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29906:29907 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29913:29914 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29903:29905 QC <> Red constr
+R29908:29912 QC <> Green constr
+R29924:29929 QC <> Yellow constr
+R29934:29935 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29939:29940 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29946:29947 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29952:29953 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R29936:29938 QC <> Red constr
+R29941:29945 QC <> Green constr
+R29948:29951 QC <> Blue constr
+R30214:30223 QuickChick.Instances <> shrinkList inst
+R30421:30433 QuickChick.Instances <> shrinkListAux def
+def 31906:31918 <> shrinkTreeAux
+R31945:31948 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31949:31952 Coq.Init.Datatypes <> list ind
+R31954:31954 QC <> A var
+R31944:31944 QC <> A var
+R31962:31965 QC <> Tree ind
+R31967:31967 QC <> A var
+R31984:31987 Coq.Init.Datatypes <> list ind
+R31990:31993 QC <> Tree ind
+R31995:31995 QC <> A var
+R32009:32009 QC <> t var
+R32022:32025 QC <> Leaf constr
+R32030:32031 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R32039:32042 QC <> Node constr
+R32056:32059 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R32053:32053 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R32055:32055 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R32063:32086 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R32060:32060 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R32062:32062 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R32120:32143 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R32087:32089 Coq.Lists.List <> map def
+R32116:32116 QC <> s var
+R32102:32105 QC <> Node constr
+R32107:32108 QC <> x' var
+R32191:32214 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R32144:32146 Coq.Lists.List <> map def
+R32173:32185 QC <> shrinkTreeAux def
+R32187:32187 QC <> s var
+R32159:32162 QC <> Node constr
+R32166:32167 QC <> l' var
+R32215:32217 Coq.Lists.List <> map def
+R32244:32256 QC <> shrinkTreeAux def
+R32258:32258 QC <> s var
+R32230:32233 QC <> Node constr
+R32239:32240 QC <> r' var
+inst 32280:32289 <> shrinkTree
+R32297:32302 QuickChick.Classes <> Shrink class
+R32304:32304 QC <> A var
+R32309:32314 QuickChick.Classes <> Shrink class
+R32317:32320 QC <> Tree ind
+R32322:32322 QC <> A var
+R32334:32367 QuickChick.Classes <> Build_Shrink constr
+R32346:32358 QC <> shrinkTreeAux def
+R32367:32367 QC <> x var
+R32360:32365 QuickChick.Classes <> shrink meth
+ind 33329:33339 <> TernaryTree
+constr 33348:33352 <> TLeaf
+constr 33372:33376 <> TNode
+R33356:33366 QC <> TernaryTree ind
+R33368:33368 QC <> A var
+R33386:33389 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33403:33406 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33420:33423 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33437:33440 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33441:33451 QC <> TernaryTree ind
+R33453:33453 QC <> A var
+R33424:33434 QC <> TernaryTree ind
+R33436:33436 QC <> A var
+R33407:33417 QC <> TernaryTree ind
+R33419:33419 QC <> A var
+R33390:33400 QC <> TernaryTree ind
+R33402:33402 QC <> A var
+R33385:33385 QC <> A var
+R33467:33471 QC <> TLeaf constr
+R33467:33471 QC <> TLeaf constr
+R33488:33492 QC <> TNode constr
+R33488:33492 QC <> TNode constr
+def 33659:33669 <> tern_mirror
+R33687:33697 QC <> TernaryTree ind
+R33699:33699 QC <> A var
+R33704:33714 QC <> TernaryTree ind
+R33716:33716 QC <> A var
+R33729:33729 QC <> t var
+R33742:33746 QC <> TLeaf constr
+R33751:33755 QC <> TLeaf constr
+R33763:33767 QC <> TNode constr
+R33780:33784 QC <> TNode constr
+R33807:33817 QC <> tern_mirror def
+R33789:33799 QC <> tern_mirror def
+ind 34488:34496 <> direction
+constr 34501:34504 <> Left
+constr 34508:34513 <> Middle
+constr 34517:34521 <> Right
+R34505:34505 QC <> direction ind
+R34514:34514 QC <> direction ind
+R34522:34522 QC <> direction ind
+def 34690:34702 <> traverse_node
+R34711:34719 QC <> direction ind
+R34730:34740 QC <> TernaryTree ind
+R34742:34742 QC <> A var
+R34756:34756 QC <> t var
+R34767:34770 QC <> Left constr
+R34775:34775 QC <> l var
+R34781:34786 QC <> Middle constr
+R34791:34791 QC <> m var
+R34797:34801 QC <> Right constr
+R34806:34806 QC <> r var
+def 34888:34891 <> path
+R34896:34899 Coq.Init.Datatypes <> list ind
+R34901:34909 QC <> direction ind
+def 35044:35056 <> traverse_path
+R35065:35068 QC <> path def
+R35075:35085 QC <> TernaryTree ind
+R35087:35087 QC <> A var
+R35101:35101 QC <> t var
+R35112:35116 QC <> TLeaf constr
+R35125:35129 QC <> TLeaf constr
+R35135:35139 QC <> TNode constr
+R35162:35162 QC <> p var
+R35176:35179 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R35186:35198 QC <> traverse_path def
+R35204:35216 QC <> traverse_node def
+R35233:35234 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R35239:35239 QC <> t var
+def 35352:35362 <> path_mirror
+R35367:35369 Coq.Lists.List <> map def
+R35387:35387 QC <> t var
+R35433:35436 QC <> Left constr
+R35441:35445 QC <> Right constr
+R35486:35490 QC <> Right constr
+R35495:35498 QC <> Left constr
+R35544:35544 QC <> t var
+inst 35747:35762 <> eq_dec_tern_tree
+R35773:35783 QC <> TernaryTree ind
+R35785:35787 Coq.Init.Datatypes <> nat ind
+R35792:35794 QuickChick.Decidability <> Dec class
+R35799:35801 Coq.Init.Logic <> :type_scope:x_'='_x not
+R35797:35798 QC <> t1 var
+R35802:35803 QC <> t2 var
+def 36010:36030 <> tern_mirror_path_flip
+R36035:36045 QC <> TernaryTree ind
+R36047:36049 Coq.Init.Datatypes <> nat ind
+R36055:36058 QC <> path def
+R36066:36068 QuickChick.Decidability <> ::x_'?' not
+R36152:36154 QuickChick.Decidability <> ::x_'?' not
+R36086:36092 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36069:36081 QC <> traverse_path def
+R36085:36085 QC <> t var
+R36083:36083 QC <> p var
+R36093:36103 QC <> tern_mirror def
+R36106:36118 QC <> traverse_path def
+R36137:36147 QC <> tern_mirror def
+R36149:36149 QC <> t var
+R36121:36131 QC <> path_mirror def
+R36133:36133 QC <> p var
+inst 36453:36465 <> showDirection
+R36469:36472 QuickChick.Show <> Show class
+R36474:36482 QC <> direction ind
+R36492:36609 QuickChick.Show <> Build_Show constr
+R36515:36515 QC <> x var
+R36531:36534 QC <> Left constr
+R36555:36560 QC <> Middle constr
+R36583:36587 QC <> Right constr
+def 36627:36638 <> genDirection
+R36642:36642 QuickChick.GenLow GenLow G defax
+R36644:36652 QC <> direction ind
+R36659:36665 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R36670:36671 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R36678:36679 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R36685:36685 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'elems'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R36666:36669 QC <> Left constr
+R36666:36669 QC <> Left constr
+R36672:36677 QC <> Middle constr
+R36680:36684 QC <> Right constr
+inst 36698:36712 <> shrinkDirection
+R36716:36721 QuickChick.Classes <> Shrink class
+R36723:36731 QC <> direction ind
+R36741:36836 QuickChick.Classes <> Build_Shrink constr
+R36766:36766 QC <> d var
+R36782:36785 QC <> Left constr
+R36790:36791 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R36802:36806 QC <> Right constr
+R36810:36815 QC <> Middle constr
+R36820:36820 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R36825:36825 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R36821:36824 QC <> Left constr
+R36820:36820 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R36825:36825 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R36821:36824 QC <> Left constr
+inst 37114:37121 <> showPath
+R37125:37128 QuickChick.Show <> Show class
+R37130:37133 QC <> path def
+R37138:37145 QuickChick.Show <> showList inst
+def 37160:37166 <> genPath
+R37170:37170 QuickChick.GenLow GenLow G defax
+R37172:37175 QC <> path def
+R37182:37187 QuickChick.GenHigh GenHigh listOf defax
+R37189:37200 QC <> genDirection def
+inst 37213:37222 <> shrinkPath
+R37226:37231 QuickChick.Classes <> Shrink class
+R37233:37236 QC <> path def
+R37241:37250 QuickChick.Instances <> shrinkList inst
+mod 37948:37956 <> DefineGen
+rec 37968:37970 DefineGen Gen
+proj 37994:38002 DefineGen arbitrary
+R38006:38006 QuickChick.GenLow GenLow G defax
+R38008:38008 QC <> A var
+R38020:38028 QC DefineGen <> mod
+inst 38248:38256 <> gen_color
+R38260:38262 QuickChick.Classes <> Gen class
+R38264:38268 QC <> color ind
+R38281:38289 QuickChick.Classes <> arbitrary meth
+R38294:38301 QC <> genColor def
+mod 38447:38461 <> DefineArbitrary
+rec 38489:38497 DefineArbitrary Arbitrary
+R38512:38514 QC DefineGen Gen class
+R38516:38516 QC <> A var
+R38521:38526 QuickChick.Classes <> Shrink class
+R38528:38528 QC <> A var
+R38590:38604 QC DefineArbitrary <> mod
+ax 38889:38906 <> every_color_is_red
+R38921:38923 Coq.Init.Logic <> :type_scope:x_'='_x not
+R38920:38920 QC <> c var
+R38924:38926 QC <> Red constr
+inst 39299:39310 <> eq_dec_color
+R39319:39323 QC <> color ind
+R39328:39330 QuickChick.Decidability <> Dec class
+R39334:39336 Coq.Init.Logic <> :type_scope:x_'='_x not
+R39333:39333 QC <> x var
+R39337:39337 QC <> y var
+mod 40112:40122 <> DefineSized
+def 40153:40157 DefineSized sized
+R40178:40181 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R40182:40182 QC DefineG G ind
+R40184:40184 QC <> A var
+R40175:40177 Coq.Init.Datatypes <> nat ind
+R40189:40189 QC DefineG G ind
+R40191:40191 QC <> A var
+R40198:40200 QC DefineG MkG constr
+R40237:40237 QC <> f var
+R40239:40239 QC <> n var
+R40257:40259 QC DefineG MkG constr
+R40270:40270 QC <> r var
+R40268:40268 QC <> n var
+R40294:40304 QC DefineSized <> mod
+mod 40469:40482 <> DefineGenSized
+rec 40492:40499 DefineGenSized GenSized
+proj 40523:40536 DefineGenSized arbitrarySized
+R40543:40546 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R40547:40547 QuickChick.GenLow GenLow G defax
+R40549:40549 QC <> A var
+R40540:40542 Coq.Init.Datatypes <> nat ind
+inst 40680:40692 DefineGenSized GenOfGenSized
+R40700:40707 QC DefineGenSized GenSized class
+R40709:40709 QC <> A var
+R40714:40716 QuickChick.Classes <> Gen class
+R40718:40718 QC <> A var
+R40731:40739 QuickChick.Classes <> arbitrary meth
+R40744:40748 QuickChick.GenLow GenLow sized defax
+R40750:40763 QC DefineGenSized arbitrarySized meth
+R40775:40788 QC DefineGenSized <> mod
+inst 40913:40919 <> genTree
+R40927:40929 QuickChick.Classes <> Gen class
+R40931:40931 QC <> A var
+R40936:40943 QuickChick.Classes <> GenSized class
+R40946:40949 QC <> Tree ind
+R40951:40951 QC <> A var
+R40963:41007 QuickChick.Classes <> Build_GenSized constr
+R40983:40995 QC <> genTreeSized' def
+R40999:41007 QuickChick.Classes <> arbitrary meth
+R40997:40997 QC <> n var
+R41941:41952 QC <> GenSizedTree inst
+R41961:41970 QC <> ShrinkTree inst
+R42041:42048 QC <> ShowTree inst
+R42630:42636 QuickChick.Checker <> collect def
+def 43195:43198 <> size
+R43209:43212 QC <> Tree ind
+R43214:43214 QC <> A var
+R43219:43221 Coq.Init.Datatypes <> nat ind
+R43234:43234 QC <> t var
+R43247:43250 QC <> Leaf constr
+R43255:43255 Coq.Init.Datatypes <> O constr
+R43263:43266 QC <> Node constr
+R43287:43289 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R43278:43280 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R43281:43284 QC <> size def
+R43290:43293 QC <> size def
+def 43422:43429 <> treeProp
+R43439:43442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43448:43451 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R43452:43452 QuickChick.GenLow GenLow G defax
+R43455:43458 QC <> Tree ind
+R43460:43462 Coq.Init.Datatypes <> nat ind
+R43443:43443 QuickChick.GenLow GenLow G defax
+R43445:43447 Coq.Init.Datatypes <> nat ind
+R43436:43438 Coq.Init.Datatypes <> nat ind
+R43473:43478 QuickChick.Checker <> forAll def
+R43511:43517 QuickChick.Checker <> collect def
+R43528:43531 Coq.Init.Datatypes <> true constr
+R43520:43523 QC <> size def
+R43525:43525 QC <> t var
+R43481:43481 QC <> g var
+R43486:43491 QuickChick.GenLow GenLow choose defax
+R43493:43493 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R43495:43495 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R43497:43497 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R43496:43496 QC <> n var
+R43483:43483 QC <> n var
+def 45433:45438 <> sorted
+R45445:45448 Coq.Init.Datatypes <> list ind
+R45450:45452 Coq.Init.Datatypes <> nat ind
+R45467:45467 QC <> l var
+R45479:45480 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R45485:45488 Coq.Init.Datatypes <> true constr
+R45496:45497 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R45534:45535 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R45540:45543 Coq.Init.Datatypes <> true constr
+R45562:45565 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R45572:45572 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R45580:45585 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R45595:45595 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R45574:45578 Coq.Arith.PeanoNat <> :nat_scope:x_'<=?'_x not
+R45586:45591 QC <> sorted def
+def 45633:45638 <> insert
+R45645:45647 Coq.Init.Datatypes <> nat ind
+R45655:45658 Coq.Init.Datatypes <> list ind
+R45660:45662 Coq.Init.Datatypes <> nat ind
+R45677:45677 QC <> l var
+R45689:45690 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R45695:45695 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R45697:45697 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R45696:45696 QC <> x var
+R45705:45706 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R45717:45721 Coq.Arith.PeanoNat <> :nat_scope:x_'<=?'_x not
+R45716:45716 QC <> x var
+R45756:45759 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R45760:45765 QC <> insert def
+R45767:45767 QC <> x var
+R45730:45733 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R45729:45729 QC <> x var
+R45734:45734 QC <> l var
+def 45867:45877 <> insert_spec
+R45884:45886 Coq.Init.Datatypes <> nat ind
+R45894:45897 Coq.Init.Datatypes <> list ind
+R45899:45901 Coq.Init.Datatypes <> nat ind
+R45917:45921 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R45909:45914 QC <> sorted def
+R45916:45916 QC <> l var
+R45922:45927 QC <> sorted def
+R45930:45935 QC <> insert def
+R45939:45939 QC <> l var
+R45937:45937 QC <> x var
+def 46695:46706 <> insert_spec'
+R46713:46715 Coq.Init.Datatypes <> nat ind
+R46723:46726 Coq.Init.Datatypes <> list ind
+R46728:46730 Coq.Init.Datatypes <> nat ind
+R46738:46744 QuickChick.Checker <> collect def
+R46763:46773 QC <> insert_spec def
+R46777:46777 QC <> l var
+R46775:46775 QC <> x var
+R46747:46757 Coq.Lists.List <> length syndef
+R46759:46759 QC <> l var
+def 47511:47523 <> genSortedList
+R47537:47539 Coq.Init.Datatypes <> nat ind
+R47550:47552 Coq.Init.Datatypes <> nat ind
+R47570:47570 QuickChick.GenLow GenLow G defax
+R47573:47576 Coq.Init.Datatypes <> list ind
+R47578:47580 Coq.Init.Datatypes <> nat ind
+R47594:47597 QC <> size var
+R47608:47608 Coq.Init.Datatypes <> O constr
+R47613:47615 ExtLib.Structures.Monad <> ret meth
+R47617:47618 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R47624:47624 Coq.Init.Datatypes <> S constr
+R47646:47649 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R47642:47645 QC <> high var
+R47650:47652 QC <> low var
+R47687:47693 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R47705:47720 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R47844:47845 QuickChick.GenHighInterface Sig.QcDefaultNotation :qc_scope:'freq'_'['_x_';'_x_';'_'..'_';'_x_']' not
+R47694:47694 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47696:47697 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47704:47704 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47698:47700 ExtLib.Structures.Monad <> ret meth
+R47702:47703 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R47694:47694 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47696:47697 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47704:47704 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47698:47700 ExtLib.Structures.Monad <> ret meth
+R47702:47703 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R47721:47721 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47726:47727 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47843:47843 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47722:47725 QC <> size var
+R47729:47732 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R47751:47773 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R47733:47738 QuickChick.GenLow GenLow choose defax
+R47740:47740 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47744:47745 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47750:47750 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47741:47743 QC <> low var
+R47746:47749 QC <> high var
+R47776:47779 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R47806:47829 ExtLib.Structures.Monad MonadNotation :monad_scope:x_'<-'_x_';;'_x not
+R47780:47792 QC <> genSortedList def
+R47796:47799 QC <> high var
+R47794:47794 QC <> x var
+R47830:47832 ExtLib.Structures.Monad <> ret meth
+R47836:47839 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R47835:47835 QC <> x var
+R47840:47841 QC <> xs var
+R47665:47667 ExtLib.Structures.Monad <> ret meth
+R47669:47670 Coq.Lists.List ListNotations :list_scope:'['_']' not
+def 48482:48499 <> insert_spec_sorted
+R48506:48508 Coq.Init.Datatypes <> nat ind
+R48516:48527 QuickChick.Checker <> forAllShrink def
+R48585:48596 QC <> insert_spec' def
+R48600:48600 QC <> l var
+R48598:48598 QC <> x var
+R48563:48568 QuickChick.Classes <> shrink meth
+R48535:48547 QC <> genSortedList def
+R48711:48728 QC <> insert_spec_sorted def
+def 49770:49774 <> isBST
+R49787:49789 Coq.Init.Datatypes <> nat ind
+R49797:49800 QC <> Tree ind
+R49802:49804 Coq.Init.Datatypes <> nat ind
+R49819:49819 QC <> t var
+R49831:49834 QC <> Leaf constr
+R49839:49842 Coq.Init.Datatypes <> true constr
+R49848:49851 QC <> Node constr
+R49924:49928 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49943:49943 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49887:49909 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49923:49923 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49862:49862 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49871:49876 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49886:49886 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R49866:49869 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R49863:49865 QC <> low var
+R49878:49881 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R49882:49885 QC <> high var
+R49910:49914 QC <> isBST def
+R49916:49918 QC <> low var
+R49929:49933 QC <> isBST def
+R49937:49940 QC <> high var
+def 50034:50042 <> insertBST
+R50049:50051 Coq.Init.Datatypes <> nat ind
+R50059:50062 QC <> Tree ind
+R50064:50066 Coq.Init.Datatypes <> nat ind
+R50080:50080 QC <> t var
+R50092:50095 QC <> Leaf constr
+R50100:50103 QC <> Node constr
+R50112:50115 QC <> Leaf constr
+R50107:50110 QC <> Leaf constr
+R50105:50105 QC <> x var
+R50121:50124 QC <> Node constr
+R50140:50143 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R50139:50139 QC <> x var
+R50202:50205 QC <> Node constr
+R50213:50221 QC <> insertBST def
+R50223:50223 QC <> x var
+R50152:50155 QC <> Node constr
+R50161:50169 QC <> insertBST def
+R50171:50171 QC <> x var
+def 50425:50438 <> insertBST_spec
+R50452:50454 Coq.Init.Datatypes <> nat ind
+R50462:50464 Coq.Init.Datatypes <> nat ind
+R50472:50475 QC <> Tree ind
+R50477:50479 Coq.Init.Datatypes <> nat ind
+R50487:50487 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50496:50504 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50491:50494 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R50488:50490 QC <> low var
+R50495:50495 QC <> x var
+R50505:50505 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50515:50523 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50507:50510 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R50506:50506 QC <> x var
+R50511:50514 QC <> high var
+R50524:50524 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50541:50549 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R50525:50529 QC <> isBST def
+R50540:50540 QC <> t var
+R50535:50538 QC <> high var
+R50531:50533 QC <> low var
+R50550:50554 QC <> isBST def
+R50566:50574 QC <> insertBST def
+R50578:50578 QC <> t var
+R50576:50576 QC <> x var
+R50560:50563 QC <> high var
+R50556:50558 QC <> low var
+def 51105:51114 <> insertBST'
+R51121:51123 Coq.Init.Datatypes <> nat ind
+R51131:51134 QC <> Tree ind
+R51136:51138 Coq.Init.Datatypes <> nat ind
+R51152:51152 QC <> t var
+R51164:51167 QC <> Leaf constr
+R51172:51175 QC <> Node constr
+R51184:51187 QC <> Leaf constr
+R51179:51182 QC <> Leaf constr
+R51177:51177 QC <> x var
+R51193:51196 QC <> Node constr
+R51212:51215 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R51211:51211 QC <> x var
+R51280:51283 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R51284:51284 QC <> x var
+R51342:51342 QC <> t var
+R51291:51294 QC <> Node constr
+R51302:51311 QC <> insertBST' def
+R51313:51313 QC <> x var
+R51224:51227 QC <> Node constr
+R51233:51242 QC <> insertBST' def
+R51244:51244 QC <> x var
+def 51363:51377 <> insertBST_spec'
+R51391:51393 Coq.Init.Datatypes <> nat ind
+R51401:51403 Coq.Init.Datatypes <> nat ind
+R51411:51414 QC <> Tree ind
+R51416:51418 Coq.Init.Datatypes <> nat ind
+R51426:51426 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51435:51440 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51430:51433 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R51427:51429 QC <> low var
+R51434:51434 QC <> x var
+R51441:51441 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51451:51456 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51443:51446 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R51442:51442 QC <> x var
+R51447:51450 QC <> high var
+R51457:51457 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51474:51482 QuickChick.Checker QcNotation :Checker_scope:x_'==>'_x not
+R51458:51462 QC <> isBST def
+R51473:51473 QC <> t var
+R51468:51471 QC <> high var
+R51464:51466 QC <> low var
+R51483:51487 QC <> isBST def
+R51499:51508 QC <> insertBST' def
+R51512:51512 QC <> t var
+R51510:51510 QC <> x var
+R51493:51496 QC <> high var
+R51489:51491 QC <> low var

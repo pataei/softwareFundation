@@ -1,0 +1,40 @@
+DIGEST cc589240acaa58e5c562d0ab956e9f3d
+FIntroduction
+R157:166 QuickChick.QuickChick <> <> lib
+R184:187 Coq.Lists.List <> <> lib
+R189:194 Coq.ZArith.ZArith <> <> lib
+def 497:502 <> remove
+R509:511 Coq.Init.Datatypes <> nat ind
+R519:522 Coq.Init.Datatypes <> list ind
+R524:526 Coq.Init.Datatypes <> nat ind
+R531:534 Coq.Init.Datatypes <> list ind
+R536:538 Coq.Init.Datatypes <> nat ind
+R551:551 Introduction <> l var
+R564:565 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R572:573 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R582:583 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R592:598 Coq.Arith.EqNat <> beq_nat syndef
+R602:602 Introduction <> x var
+R617:620 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R621:626 Introduction <> remove def
+R628:628 Introduction <> x var
+ax 725:731 <> removeP
+R748:750 Coq.Init.Logic <> :type_scope:'~'_x not
+R768:768 Coq.Init.Logic <> :type_scope:'~'_x not
+R751:752 Coq.Lists.List <> In def
+R757:762 Introduction <> remove def
+R766:766 Introduction <> l var
+R764:764 Introduction <> x var
+R754:754 Introduction <> x var
+def 2313:2318 <> insert
+R2335:2335 Introduction <> l var
+R2346:2347 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R2352:2352 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R2354:2354 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R2353:2353 Introduction <> x var
+R2361:2362 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2372:2375 Coq.Arith.PeanoNat <> :nat_scope:x_'<?'_x not
+R2376:2376 Introduction <> x var
+R2400:2401 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2383:2388 Introduction <> insert def
+R2390:2390 Introduction <> x var

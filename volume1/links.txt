@@ -1,0 +1,5 @@
+further reading:   https://softwarefoundations.cis.upenn.edu/lf-current/Postscript.html
+
+downloading coq files:   http://www.cis.upenn.edu/~bcpierce/sf
+
+lecture videos:   https://deepspec.org/event/dsss17/coq_intensive.html
