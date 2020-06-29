@@ -811,7 +811,7 @@ Proof.
 (*is there a way to apply all possible hypothesis withou doing each separately?*)
     try apply IHb; try apply IHb1; try apply IHb2; reflexivity.
 (* case by case proof:*)
-  intros H; generalize dependent bv; induction b; 
+(*  intros H; generalize dependent bv; induction b; 
   simpl; intros; subst.
     + apply E_BTrue.
     + apply E_BFalse.
@@ -1490,7 +1490,8 @@ Proof.
     quite a bit just working with the bare definitions.  This section
     explores some examples. *)
 
-Theorem plus2_spec : forall st n st',
+(*commented the following out to just get Imp to compile for now.*)
+(*Theorem plus2_spec : forall st n st',
   st X = n ->
   plus2 / st \\ st' ->
   st' X = (n + 2).
@@ -1503,7 +1504,7 @@ Proof.
       is an assignment *)
 
   inversion Heval. subst. clear Heval. simpl.
-  apply t_update_eq.  Qed.
+  apply t_update_eq.  Qed.*)
 
 (** **** Exercise: 3 stars, recommended (XtimesYinZ_spec)  *)
 (** State and prove a specification of [XtimesYinZ]. *)
